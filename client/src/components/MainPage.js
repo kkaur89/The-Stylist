@@ -41,13 +41,14 @@ const MainPage = () => {
     info.acf.widgets[12].paragraph
   ]
  
-  console.log('paragraph',paragraphs)
+  // console.log('paragraph',paragraphs)
 
 
   return (
     <div className="section">
       <div className="container">
         <div className="mainPage">
+          <img src={info.acf.hero_image.sizes.landscape} width='100%'/>
           <p>{info.acf.category.name}</p>
           <h1>{info.title.rendered}</h1>
           <p>{`${difference} years ago`}</p>
@@ -66,6 +67,30 @@ const MainPage = () => {
           <p>Written by <a href="https://www.stylist.co.uk/author/katie-bishop">{info._embedded.author[0].name}</a></p>
           <h3>{info.acf.standfirst}</h3>
           <p>{paragraphs[0].replace(/(<([^>]+)>)/gi, '')}</p>
+          <br/>
+          <img src={info.acf.widgets[1].image.sizes.square} width='75%'/>
+          <br/>
+          <p>{paragraphs[1].replace(/(<([^>]+)>)/gi, '')}</p>
+          <br/>
+          <h3>{info.acf.widgets[3].text}</h3>
+          <br/>
+          <p>{paragraphs[2].replace(/(<([^>]+)>)/gi, '')}</p>
+          <br/>
+          <img src={info.acf.widgets[5].image.sizes.landscape} width='75%'/>
+          <br/>
+          <p>{paragraphs[3].replace(/(<([^>]+)>)/gi, '')}</p>
+          <br/>
+          <img src={info.acf.widgets[7].image.sizes.landscape} width='75%'/>
+          <br/>
+          <p>{paragraphs[4].replace(/(<([^>]+)>)/gi, '')}</p>
+          <br/>
+          <h3>{info.acf.widgets[9].text}</h3>
+          <br/>
+          <p>{paragraphs[5].replace(/(<([^>]+)>)/gi, '')}</p>
+          <br/>
+          <img src={info.acf.widgets[11].image.sizes.landscape} width='75%'/>
+          <br/>
+          <p>{paragraphs[6].replace(/(<([^>]+)>)/gi, '')}</p>
         </div>
       </div>
     </div>
