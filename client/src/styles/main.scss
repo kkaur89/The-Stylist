@@ -1,0 +1,109 @@
+body {
+  font-family:'Hurme Geometric Sans 3','-apple-system','BlinkMacSystemFont','Helvetica Neue','sans-serif';
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  background-color: white;
+  top: 105%;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  padding: 3%;
+  text-align: center;
+}
+
+.main-content {
+  padding-top: 20%;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  text-align: center;
+}
+
+.hero-title {
+  font-family: 'Noe Display','Georgia','Times New Roman','serif';
+  font-weight: 700;
+  font-size: 2rem;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.social-media-links {
+  padding: 0;
+}
+
+.category {
+  font-family: 'Hurme Geometric Sans 3','-apple-system','BlinkMacSystemFont','Helvetica Neue','sans-serif';
+  letter-spacing: 0.08em;
+  line-height: 1.1;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.time {
+  font-family: 'Hurme Geometric Sans 3','-apple-system','BlinkMacSystemFont','Helvetica Neue','sans-serif';
+  font-weight: 300;
+  line-height: 1.4;
+  font-size: 1rem;
+}
+
+.written-by {
+  -webkit-font-smoothing: auto;
+  font-family: 'Hurme Geometric Sans 3','-apple-system','BlinkMacSystemFont','Helvetica Neue','sans-serif';
+}
+
+a {
+  color: #3dd2be;
+  font-weight: 700;
+}
+.group-chat {
+  -webkit-font-smoothing: auto;
+  font-family: 'Hurme Geometric Sans 3','-apple-system','BlinkMacSystemFont','Helvetica Neue','sans-serif';
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.header {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Noe Display','Georgia','Times New Roman','serif';
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 0.015em;
+}
+
+@media only screen and (max-width: 414px) {
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 91%;
+    background-color: white;
+    margin-left: 4%;
+    margin-right: 4%;
+    top: 23%;
+  
+  }
+  .main-content {
+    padding-top: 117%;
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 91%;
+    text-align: center;
+  }
+
+  .social-media-links {
+    padding: 0;
+  }
+}
+
+
+
+
+
+
+
+@import 'semantic-ui-css/semantic.min.css'
